@@ -1,0 +1,406 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug  5 14:37:51 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/blackbear/DataStructureProjects/Johnson_Assignment3.3
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/70
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:56909
+# makefile (from 'Makefile', line 3)
+CFLAGS := -g -IIncludes 
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = blackbear
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/70/usr/share/code/code
+# makefile (from 'Makefile', line 6)
+OBJS := customErrorClass.o avl_binarySearchTree.o main.o 
+# environment
+MANAGERPID = 1476
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/blackbear
+# makefile (from 'Makefile', line 1)
+INCLUDE_DIRS := Includes
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/70/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1693,unix/ubuntu:/tmp/.ICE-unix/1693
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/blackbear/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/70
+# environment
+SNAP_VERSION = c3f12631
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=d8c5b231-f202-4f09-a98c-8e9d2d49a9db&iid=d8c5b231-f202-4f09-a98c-8e9d2d49a9db&sid=d8c5b231-f202-4f09-a98c-8e9d2d49a9db","uploadToServer":true}
+# environment
+INVOCATION_ID = 4a785623c7fc4157b47e75951b40cd5d
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/70/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2811
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/blackbear/DataStructureProjects/Johnson_Assignment3.3
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1658
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/blackbear
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/blackbear/.config/Code/CachedData/c3f126316369cd610563c75b1b1725e0679adfb3
+# environment
+LOGNAME = blackbear
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = IHNSGyPHOEqpJRHy_YATL3Q6yoDLySjw09f0ni09CTQE784lJbml
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/blackbear/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/blackbear
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/blackbear/snap/code/70
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 2)
+CC := g++
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6921fdf2-8885-4003-a002-da7c36cd53ba.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = blackbear
+# environment
+SNAP_REVISION = 70
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-df6b9d7d-1.58.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/blackbear/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = IHNSGyPHOEqpJRHy_YATL3Q6yoDLySjw09f0ni09CTQE784lJbml
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 7)
+DEPS := Includes/customErrorClass.h avl_binarySearchTree.h
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2852
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=24/158=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 950282): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+ 
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+avl_binarySearchTree.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-16 09:35:30.542522026
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Includes/customErrorClass.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 01:16:23.48455
+#  File has been updated.
+#  Successfully updated.
+
+all: Johnson_Assignment3 customErrorClass.o avl_binarySearchTree.o main.o
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+avl_binarySearchTree.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-17 12:20:33.657462856
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+customErrorClass.o: customErrorClass.cpp Includes/customErrorClass.h avl_binarySearchTree.h
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-17 11:58:05.77641238
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(CC) -c -o $@ $(CFLAGS) $<
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-05 23:56:48.537976
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-07 17:36:15.286701
+#  File has been updated.
+#  Successfully updated.
+
+avl_binarySearchTree.o: avl_binarySearchTree.cpp Includes/customErrorClass.h avl_binarySearchTree.h
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-17 12:23:06.587389306
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) -c -o $@ $(CFLAGS) $<
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	rm $(OBJS) Johnson_Assignment3
+
+# Not a target:
+customErrorClass.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-28 10:29:04.140767
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-12 16:34:19.638141971
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 24):
+	$(CC) -c -o $@ $(CFLAGS) $<
+
+Johnson_Assignment3: customErrorClass.o avl_binarySearchTree.o main.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-17 12:23:06.663392448
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 27):
+	$(CC) -o $@ $^ $(CFLAGS)
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/47=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 368 B / avg = 12 B
+# current buf: size = 8162 B / used = 368 B / count = 29 / avg = 12 B
+
+# strcache performance: lookups = 60 / hit rate = 51%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/60=2%
+# Finished Make data base on Thu Aug  5 14:37:51 2021
+
+ 

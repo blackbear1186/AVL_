@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/blackbear/DataStructureProjects/Johnson_Assignment3.3'
+g++ -c -o customErrorClass.o -g -IIncludes  customErrorClass.cpp
+g++ -c -o avl_binarySearchTree.o -g -IIncludes  avl_binarySearchTree.cpp
+g++ -c -o main.o -g -IIncludes  main.cpp
+g++ -o Johnson_Assignment3 customErrorClass.o avl_binarySearchTree.o main.o -g -IIncludes 
+make: Leaving directory '/home/blackbear/DataStructureProjects/Johnson_Assignment3.3'
+ 
